@@ -1,0 +1,24 @@
+body {
+    margin: 200px auto;
+    text-align: center;
+    width: 400px;
+    background-color:aliceblue;
+    align-items: center;
+    border: 1px solid #234121;
+  
+}
+#pwOne {
+    background: rgb(15, 177, 189);
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin: 10px 75px;
+}
+
+#pwTwo {
+    background: rgb(167, 155, 51);
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin: 10px 75px;;
+}
