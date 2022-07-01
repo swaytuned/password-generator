@@ -28,3 +28,5 @@ function randomizeCharacters(){
 
 //for (let i = 0; i < characters.length; i++)
 //console.log(characters[i])
+
+//test to push new commit
