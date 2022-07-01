@@ -1,24 +1,29 @@
 body {
     margin: 200px auto;
     text-align: center;
-    width: 400px;
+    width: 550px;
+    height: 550px;
     background-color:aliceblue;
     align-items: center;
     border: 1px solid #234121;
   
 }
-#pwOne {
+span{
+    line-break:normal ;
+
+}
+#password-one {
     background: rgb(15, 177, 189);
     border-radius: 10px;
     height: 30px;
     width: 250px;
-    margin: 10px 75px;
+    margin: 10px auto;
 }
 
-#pwTwo {
+#password-two {
     background: rgb(167, 155, 51);
     border-radius: 10px;
     height: 30px;
     width: 250px;
-    margin: 10px 75px;;
+    margin: 10px auto;
 }
