@@ -9,7 +9,7 @@ let newPassword = "";
 
 //Onclick to generate random characters from array
 function generatePassword(){   
-    
+        passwordOne.textContent = newPassword
     //adds in fifteen chracters
     for (let i = 0; i < 15; i++){
         //randomizes the array
