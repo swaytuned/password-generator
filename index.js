@@ -9,30 +9,17 @@ let newPassword = "";
 
 //Onclick to generate random characters from array
 function generatePassword(){   
+        //Start with empty text field
         passwordOne.textContent = newPassword
+        passwordTwo.textContent = newPassword
     //adds in fifteen chracters
     for (let i = 0; i < 15; i++){
-        //randomizes the array
+        //randomizes the array to output passwords
         let randomCharacterOne = Math.floor( Math.random() * characters.length ) 
-        //will post random combination to text box
-        //passwordOne.textContent += characters[randomCharacterOne] 
-
-        //reset and replace if character limit exceeds
+        let randomCharacterTwo = Math.floor( Math.random() * characters.length ) 
+        //Randomized chracters and outputs to  text field
         passwordOne.textContent += characters[randomCharacterOne] 
-    }
-
-
-    
-        //reset after pressing generate password
+        passwordTwo.textContent += characters[randomCharacterTwo]
+    }       
 
 }
-
-
-
-
-
- 
-
-        //IGNORE UNTIL YOU FIGURE IT OUT
-        //let randomCharacterTwo = Math.floor( Math.random() * characters.length ) 
-        //passwordTwo.textContent = characters[randomCharacterTwo]
