@@ -4,24 +4,25 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let passwordOne = document.getElementById("password-one");
 let passwordTwo = document.getElementById("password-two");
 let passwordButton = document.getElementById("password-btn");
-let passwordReset ="";
+let newPassword ="";
 
 
 //Onclick to generate random characters from array
-function generatePassword(){    
+function generatePassword(){ 
+    newPassword = ""   
     //adds in fifteen chracters
     for (let i = 0; i < 15; i++){
         //randomizes the array
         let randomCharacterOne = Math.floor( Math.random() * characters.length ) 
         //will post random combination to text box
         //passwordOne.textContent += characters[randomCharacterOne] 
-        passwordReset = ""
+        
 
         //reset and replace if character limit exceeds
         if (passwordOne < 0){
             passwordOne.textContent += characters[randomCharacterOne] 
         }else if(passwordOne >= 15 ){
-            passwordOne.textContent = passwordReset
+            passwordOne.textContent = newPassword
         }else{
             passwordOne.textContent += characters[randomCharacterOne]
         }
