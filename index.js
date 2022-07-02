@@ -2,31 +2,32 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let passwordOne = document.getElementById("password-one")
 let passwordTwo = document.getElementById("password-two")
-let generated = ""
+let passwordButton = document.getElementById("password-btn")
+
 
 
 //function to call array
-function randomizeCharacters(){
-    // math to pull from array
-    let randomCharacter = Math.floor( Math.random() * characters.length )
+function generatePassword(){
+    // math to pull from array, need two
+    let randomCharacter = Math.floor( Math.random() * characters.length ) 
   
     //pull random character for each password box
-    passwordOne.textContent = characters[randomCharacter] 
-    passwordTwo.textContent = characters[randomCharacter]
-
+    
+    //passwordTwo.textContent = characters[randomCharacter]
 
     //for loop
-   for (let i = 0; i < characters.length; i++)
-    console.log(characters[i])
+    for (let i = 0; i < 15; i++){
+        passwordOne.textContent += characters[randomCharacter]
+    }
+    
 }
 
-//function to generate passwords
-//function generatePassword(){
 
- //}
-//console.log(randomizeCharacters())
+
+
+ 
+
 
 //for (let i = 0; i < characters.length; i++)
 //console.log(characters[i])
 
-//test to push new commit
