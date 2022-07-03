@@ -4,17 +4,14 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 const passwordOne = document.getElementById("password-one");
 const passwordTwo = document.getElementById("password-two");
 const passwordButton = document.getElementById("password-btn");
-let passwordLength = document.getElementById("password-length")
+let passwordLength = document.getElementById("password-length");
 
 
 //Onclick to generate random characters from array
 function generatePassword(){   
     //Step 1 creates an empty string
     let newPasswordOne = "";  
-    let newPasswordTwo = "";  
-    //create custom length   
-    //let passwordLength = "";
-    passwordLength.value = "15"
+    let newPasswordTwo = "";    
 
     //Step 2 randomizes the array to 15 characters
     for (let i = 0; i < passwordLength.value; i++){
@@ -26,8 +23,11 @@ function generatePassword(){
         //step 3 print out password
         passwordOne.textContent = newPasswordOne;
         passwordTwo.textContent = newPasswordTwo;
-    }       
 
+        
+    }       
+//create custom length
+passwordLength.value = "";
      
 }
 
