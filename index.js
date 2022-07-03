@@ -9,18 +9,17 @@ const passwordButton = document.getElementById("password-btn");
 
 //Onclick to generate random characters from array
 function generatePassword(){   
-    //Start with empty text field step 1
+    //Step 1 creates an empty string
     let newPasswordOne = "";  
     let newPasswordTwo = "";     
-    //adds in fifteen chracters step 2
+    //Step 2 randomizes the array to 15 characters
     for (let i = 0; i < 15; i++){
-        //randomizes the array to output passwords
         let randomCharacterOne = Math.floor( Math.random() * characters.length ) 
         let randomCharacterTwo = Math.floor( Math.random() * characters.length ) 
-        //Randomized chracters and outputs to  text field
+        //empty string now becomes the random characters from the for loop
         newPasswordOne += characters[randomCharacterOne]
         newPasswordTwo += characters[randomCharacterTwo]
-        //step 3
+        //step 3 print out password
         passwordOne.textContent = newPasswordOne;
         passwordTwo.textContent = newPasswordTwo;
     }       
