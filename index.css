@@ -3,17 +3,34 @@ body {
     text-align: center;
     width: 550px;
     height: 550px;
-    background-color:aliceblue;
+    background-color: #1F2937;    ;
     align-items: center;
-    border: 1px solid #234121;
+    border: 1px none #234121;
+    color: white;
   
+}
+h1{
+    color: white;
+    width: 354px;
+    height: 80px;
+    top: 115px;
+    left: 52px;
 }
 span{
     line-break:normal ;
+    color: #4ADF86 ;
 
 }
+.linebreak{
+
+border: 1px solid #2F3E53 ;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 361px;
+}
 #password-one {
-    background: rgb(15, 177, 189);
+    background: #273549;
     border-radius: 10px;
     height: 30px;
     width: 250px;
@@ -21,7 +38,7 @@ span{
 }
 
 #password-two {
-    background: rgb(167, 155, 51);
+    background: #273549;
     border-radius: 10px;
     height: 30px;
     width: 250px;

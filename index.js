@@ -24,5 +24,6 @@ function generatePassword(){
         passwordTwo.textContent = newPasswordTwo;
     }       
 
+    
 }
 
