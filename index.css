@@ -1,46 +1,111 @@
 body {
+    
     margin: 200px auto;
-    text-align: center;
     width: 550px;
     height: 550px;
-    background-color: #1F2937;    ;
+    left: 642px;
+    top: 64px;
+    background-color: #1C1C1C;    ;
     align-items: center;
     border: 1px none #234121;
     color: white;
+    text-align: left;
   
 }
+.mainBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937; 
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+}
 h1{
+    
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
     color: white;
     width: 354px;
     height: 80px;
     top: 115px;
     left: 52px;
+    letter-spacing: -2.5%;
+    
 }
-span{
-    line-break:normal ;
+p{
+    color: #D5D4D8;
+    text-align: left;
+    margin-right: 115px;
+    margin-top: 25px;
+    
+}
+.headerChange{
     color: #4ADF86 ;
+    text-align: left;
+    align-content: flex-start;
+
 
 }
-.linebreak{
+.inputBox{
+border-radius: 6px;
+text-align: left;
+}
+button{    
+    background: #4ADF86 ;
+    color:white ;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 17px 9px 15px;
+    margin: 6px 6px;
+}
+#password-length{
+    background: #273549;
+    color: #4ADF86 ;
+}
 
+/*spacer between button and resutls*/
+.linebreak{
 border: 1px solid #2F3E53 ;
 width: 446px;
 height: 0px;
-left: 52px;
+left: 50px;
 top: 361px;
+margin-left: 100px;
 }
+
+/*Results*/
 #password-one {
     background: #273549;
+    color: #4ADF86 ;
     border-radius: 10px;
     height: 30px;
     width: 250px;
-    margin: 10px auto;
+    margin: 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 #password-two {
     background: #273549;
+    color: #4ADF86 ;
     border-radius: 10px;
     height: 30px;
     width: 250px;
+    margin: 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+.results{
+    display: flex;
+    flex-direction: row;
     margin: 10px auto;
 }
