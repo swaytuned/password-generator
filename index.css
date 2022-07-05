@@ -1,18 +1,20 @@
 body {
     
     margin: 200px auto;
-    width: 550px;
-    height: 550px;
+    width: 1253px;
+    height: 678px;
     left: 642px;
     top: 64px;
     background-color: #1C1C1C;    ;
     align-items: center;
-    border: 1px none #234121;
     color: white;
     text-align: left;
+    
   
 }
 .mainBody{
+    width: 550px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +22,8 @@ body {
     align-items: center;
     padding: 9px 17px 9px 15px;
     gap: 12px;
+    border-radius: 6px;
+    
 }
 h1{
     
@@ -34,36 +38,71 @@ h1{
     top: 115px;
     left: 52px;
     letter-spacing: -2.5%;
+    margin-bottom: 1px;
+    margin-right: 90px;
     
 }
-p{
-    color: #D5D4D8;
-    text-align: left;
-    margin-right: 115px;
-    margin-top: 25px;
-    
-}
+/*Text above generate button*/
 .headerChange{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
     color: #4ADF86 ;
     text-align: left;
     align-content: flex-start;
+    margin: 0px;
 
 
 }
-.inputBox{
-border-radius: 6px;
-text-align: left;
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 382px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    line-height: 28px;
+    color: #D5D4D8;
+    text-align: left;
+    margin: 1px;    
+}
+.secondaryLine{
+margin-right: 55px;
 }
 button{    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     background: #4ADF86 ;
     color:white ;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     padding: 9px 17px 9px 15px;
     margin: 6px 6px;
+    border-radius: 6px;;
 }
+.inputBox{
+    margin-right: 55px;
+}
+/*Password input box*/
 #password-length{
     background: #273549;
     color: #4ADF86 ;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 24px;
+    width: 50px;
+ 
 }
 
 /*spacer between button and resutls*/
@@ -73,36 +112,44 @@ width: 446px;
 height: 0px;
 left: 50px;
 top: 361px;
-margin-left: 100px;
+margin-left: 10px;
 }
 
 /*Results*/
 #password-one {
-    background: #273549;
-    color: #4ADF86 ;
-    border-radius: 10px;
-    height: 30px;
-    width: 250px;
-    margin: 10px 10px;
-    border-radius: 6px;
-    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
+    background: #273549;
+    color: #4ADF86 ;
+    border-radius: 10px;
+    height: 39px;
+    width: 211px;
+    margin: 0px 10px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 4px;
+
 }
 
 #password-two {
-    background: #273549;
-    color: #4ADF86 ;
-    border-radius: 10px;
-    height: 30px;
-    width: 250px;
-    margin: 10px 10px;
-    border-radius: 6px;
-    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
+    background: #273549;
+    color: #4ADF86 ;
+    border-radius: 10px;
+    height: 39px;
+    width: 211px;
+    margin:0px 10px 40px 10px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 4px;
+ 
 }
 .results{
     display: flex;
